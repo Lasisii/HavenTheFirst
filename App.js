@@ -25,14 +25,15 @@ export default function App() {
   registerNNPushToken(22997, 'YZ7If3fpYWiMaGCU7EKpBW');
   
   const [fontsLoaded] = useFonts({
-    'Nunito': require('./assets/fonts/Nunito-Regular.ttf'),
-    'NunitoMedium': require('./assets/fonts/Nunito-Medium.ttf'),
-    'Nunito-SemiBold': require('./assets/fonts/Nunito-SemiBold.ttf'),
-    'Nunito-Bold': require('./assets/fonts/Nunito-Bold.ttf'),
-    'PoppinsRegular': require('./assets/fonts/Poppins-Regular.ttf'),
-    'PoppinsBold': require('./assets/fonts/Poppins-Bold.ttf'),
-    'PoppinsMedium': require('./assets/fonts/Poppins-Medium.ttf'),
-    'PoppinsExtraBold': require('./assets/fonts/Poppins-ExtraBold.ttf'),
+    Nunito: require("./assets/fonts/Nunito-Regular.ttf"),
+    //got an error here need to download the font
+    NunitoMedium: require("./assets/fonts/Nunito-Medium.ttf"),
+    "Nunito-SemiBold": require("./assets/fonts/Nunito-SemiBold.ttf"),
+    "Nunito-Bold": require("./assets/fonts/Nunito-Bold.ttf"),
+    PoppinsRegular: require("./assets/fonts/Poppins-Regular.ttf"),
+    PoppinsBold: require("./assets/fonts/Poppins-Bold.ttf"),
+    PoppinsMedium: require("./assets/fonts/Poppins-Medium.ttf"),
+    PoppinsExtraBold: require("./assets/fonts/Poppins-ExtraBold.ttf"),
   });
 
   const [isAppReady, setAppReady] = useState(false);
